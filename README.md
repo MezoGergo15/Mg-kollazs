@@ -1,5 +1,4 @@
-# Mg-kollazs
-   
+  
 <!DOCTYPE html>
 <html>
  <head>
