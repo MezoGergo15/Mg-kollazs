@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="color: yellow;">lista</title>
+</head>
+<body>
+    <h1 style="color: blue;">Mező Gergő</h1>
+    <p style="background-color: greenyellow;">kedvenc tantárgyaim</p>
+<ol>
+    <li style="color: royalblue;">Matek</li>
+    <li style="color: tomato;">IKT</li>
+    <li style="color: orangered;">Programozás</li>
+</ol>
+    <p style="background-color: greenyellow;">Kedvenc szabadidős programok</p>
+<ul>
+    <li style="color: seagreen;">kosarazás</li>
+    <li style="color: slateblue;">online játékok</li>
+    <li style="color: lime;">biciklizés</li>
+</ul>
+</body>
+</html>
