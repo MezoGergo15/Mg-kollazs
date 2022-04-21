@@ -7,46 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza Rendelés</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<style>
+    <style>
     @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
 </style>
-
-<body style="font-family: 'Josefin Sans', sans-serif;">
-    <div class="sidebar">
-        <a href="index.html">Kollázs</a>
-        <a href="keplink.html">Képlink</a>
-        <a href="lista.html">Lista</a>
-        <a href="orarend.html">Órarend</a>
-        <a class="active href="urlap.html">Űrlap</a>
-      </div>
-    <div class="content">
-        <form name="rendeles">
-            <h1 style="color: rgb(255, 11, 11); text-align: center;">Pizza Rendelés</h1>
-
-            <h2>Adatok</h2>
-            <p>Név: <input style="color: grey;" type="text" name="nev">    
-                    <small>Vezetéknév Keresztnév</small>
-            </p>
-
-            <p>Telefon: <input style="color: grey;" type="tel" name="telefon" size="10"></p>
-
-            <h2>Feltételek</h2>
-            <p><input style="color: grey;" type="checkbox" name="feltet1" value="sonka">sonka</p>
-            <p><input style="color: grey;" type="checkbox" name="feltet2" value="sajt">sajt</p>
-            <p><input style="color: grey;" type="checkbox" name="feltet3" value="gomba">gomba</p>
-            <p><input style="color: grey;" type="checkbox" name="feltet4" value="szalámi">szalámi</p>
-
-            <h2>Pizza méret</h2>
-            <p><input type="radio" name="meret" value="kicsi">kicsi<p>
-
-            <h2>Egyéb</h2>
-            <p>mennyiség: <input style="color: grey;" type="number" name="mennyiseg"> db</p>
-            <p>Kért szállítási idő: <input style="color: grey;" type="time" name="kiszallitas"></p>
-            <br>
-            <input type='submit'>
-        </form>
-    </div>
     <style>
         body {
           background-color: burlywood;
@@ -103,6 +66,42 @@
           }
         }
         </style>
+</head>
+<body style="font-family: 'Josefin Sans', sans-serif;">
+    <div class="sidebar">
+        <a href="index.html">Kollázs</a>
+        <a href="keplink.html">Képlink</a>
+        <a href="lista.html">Lista</a>
+        <a href="orarend.html">Órarend</a>
+        <a class="active href="urlap.html">Űrlap</a>
+      </div>
+    <div class="content">
+        <form name="rendeles">
+            <h1 style="color: rgb(255, 11, 11); text-align: center;">Pizza Rendelés</h1>
+
+            <h2>Adatok</h2>
+            <p>Név: <input style="color: grey;" type="text" name="nev">    
+                    <small>Vezetéknév Keresztnév</small>
+            </p>
+
+            <p>Telefon: <input style="color: grey;" type="tel" name="telefon" size="10"></p>
+
+            <h2>Feltételek</h2>
+            <p><input style="color: grey;" type="checkbox" name="feltet1" value="sonka">sonka</p>
+            <p><input style="color: grey;" type="checkbox" name="feltet2" value="sajt">sajt</p>
+            <p><input style="color: grey;" type="checkbox" name="feltet3" value="gomba">gomba</p>
+            <p><input style="color: grey;" type="checkbox" name="feltet4" value="szalámi">szalámi</p>
+
+            <h2>Pizza méret</h2>
+            <p><input type="radio" name="meret" value="kicsi">kicsi<p>
+
+            <h2>Egyéb</h2>
+            <p>mennyiség: <input style="color: grey;" type="number" name="mennyiseg"> db</p>
+            <p>Kért szállítási idő: <input style="color: grey;" type="time" name="kiszallitas"></p>
+            <br>
+            <input type='submit'>
+        </form>
+    </div>
         <footer>
   <a href="email:mezog@kkszki.hu">mezog@kkszki.hu</a>
 </footer>
